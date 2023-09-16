@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 2</title>
+</head>
+<body>
+    <form action="">
+    <h1>Registration Form</h1>
+    User id: &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" pattern="[0-9]{5,12}" autofocus required>
+    <br>
+    <br>
+    Password:  <input type="password" pattern="{7,12}" required>
+    <br>
+    <br>
+    Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" pattern="[A-Za-z\s]*" size="50" required>
+    <br>
+    <br>
+    Address:&nbsp;&nbsp;&nbsp; <input type="text" size="50">
+    <br>
+    <br>
+    Country:
+    &nbsp;&nbsp;&nbsp;<select >
+    <option value="Opcion 1">(Pleace select a country)</option>
+    <option value="Opcion 2">Argentina</option>
+    <option value="Opcion 3">Paraguay</option>
+    <option value="option 4">Uruguay</option>
+    <option value="Opcion 5">Chile</option>
+    <option value="Opcion 6">Colombia</option>
+    </select>
+    <br>
+    <br>
+    ZIP Code: &nbsp;<input type="number" required >
+    <br>
+    <br>
+    Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="email" size="50" required>
+    <br>
+    <br>
+    Sex: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sexo" required >Male
+    <input type="radio" name="sexo" required >Female
+    <br>
+    <br>
+    Language: <input type="checkbox" name="Language" checked >English
+    <input type="checkbox" name="Language" >Non English
+    <br>
+    <br>
+    About: <br>
+    &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;<textarea  cols="50" rows="15" style="vertical-align: top;"></textarea>
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="submit" >
+
+</form>
+
+
+   
+</body>
+</html>

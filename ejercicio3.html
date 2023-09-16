@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 3</title>
+</head>
+<body>
+
+    <form action="">
+
+    Account Type:
+    <input type="radio" name="Account Type">Individual
+    <br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="radio" name="Account Type" >Entity
+    <br>
+    <br>
+    First Name:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp; <input type="text" size="25" pattern="(Mr|Ms|Mrs) [A-z]* [A-z]*" required>
+    <br>
+    <br>
+    Middle Name or Initial: <input type="text" size="25" pattern="[A-Z]{1}[a-z]{1}" required >
+    <br>
+    <br>
+    Last Name:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <input type="text" size="25" pattern="(Mr|Ms|Mrs) [A-Za-z]+( [A-Za-z]+){1,3}" required>
+    <br>
+    <br>
+    Suffix: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  <select required>
+        <option value="Opcion 1">- -</option>
+        <option value="Opcion 2">Mr</option>
+        <option value="option 3">Mrs</option>
+        <option value="option 4">Ms</option>
+    </select>
+    <br>
+    <br>
+    Taxpayer Identificacion Number: <input type="number" style="height: 15px; width: 35px;" >  - <input type="number" style="height: 15px; width: 35px;" > - <input type="number" style="height: 15px; width: 35px;" required >
+    <br>
+    <br>
+    Date of Birth:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="number" style="height: 15px; width: 35px;" pattern="\d{2}" required > - <input type="number" style="height: 15px; width: 35px;" pattern="\d{2}" required> - <input type="number" style="height: 15px; width: 35px;" pattern="\d{4}" required> (MM/DD/YYYY)
+    <br>
+    <br>
+    Street Address: <input type="text" size="30" required><br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" size="30" required><br>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<input type="text" size="30" required>
+    <br>
+    <br>
+    City: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" required>   
+    <br>
+    <br>
+    State: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select required >
+        <option value="Opcion 1">- -</option>
+        <option value="Opcion 2">Amazonas</option>
+        <option value="Opcion 3">Antioquia</option>
+        <option value="Opcion 4">Arauca</option>
+        <option value="Opcion 5">Atlántico</option>
+        <option value="Opcion 6">Bogotá</option>
+        <option value="Opcion 7">Bolivar</option>
+        <option value="Opcion 8">Boyaca</option>
+        <option value="Opcion 9">Caldas</option>
+        <option value="Opcion 10">Caqueta</option>
+        <option value="Opcion 11">Casanare</option>
+        <option value="Opcion 12">Cauca</option>
+        <option value="Opcion 13">Cesar</option>
+        <option value="Opcion 14">Chocó</option>
+        <option value="Opcion 15">Córdoba</option>
+        <option value="Opcion 16">Cundinamarca</option>
+        <option value="Opcion 17">Guainía</option>
+        <option value="Opcion 18">Guaviare</option>
+        <option value="Opcion 19">Huila</option>
+        <option value="Opcion 20">La Guajira</option>
+        <option value="Opcion 21">Magdalena</option>
+        <option value="Opcion 22">Meta</option>
+        <option value="Opcion 23">Nariño</option>
+        <option value="Opcion 24">Norte de santander</option>
+        <option value="Opcion 25">Putumayo</option>
+        <option value="Opcion 26">Quindío</option>
+        <option value="Opcion 27">Risaralda</option>
+        <option value="Opcion 28">San Andrés y Providencia</option>
+        <option value="Opcion 29">Santander</option>
+        <option value="Opcion 30">Sucre</option>
+        <option value="Opcion 31">Tolima</option>
+        <option value="Opcion 32">Valle del Cauca</option>
+        <option value="Opcion 33">Vaupés</option>
+        <option value="Opcion 34">Vichada</option>
+
+    </select>    
+    <br>
+    <br>
+    Zip Code: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text"  style="height: 15px; width: 45px;" pattern="^\d{6}" required> - <input type="text" style="height: 15px; width: 45px;" pattern="(\d{4})?$" required>
+    <br>
+    <br>
+    Home Phone: (<input type="number" pattern="\+\d{2}"  style="height: 15px; width: 45px;" required >) <input type="number" style="height: 15px; width: 45px;" pattern="\d{3}" required> - <input type="number" pattern="\d{7}"  style="height: 15px; width: 45px;" required >
+    <br>
+    <br>
+    Driver´s License/State ID Number: <input type="text" pattern="(D)\d+" required>
+    <br>
+    <br>
+    Issuing State: <select required>
+        <option value="Opcion 1">- -</option>
+        <option value="Opcion 2">Opcion 1</option>
+        <option value="opcion 3">Opcion 2</option>
+        <option value="opcion 4">Opcion 3</option>
+    </select>
+    <br>
+    <br>
+    Expiration Date: <input type="number" style="height: 15px; width: 35px;" min="1" max="12" required>
+    - 
+      <input type="number" style="height: 15px; width: 35px;" min="1" max="31" required>
+   - 
+     <input type="number" style="height: 15px; width: 55px;" min="2000"  required>
+    (MM-DD-YYYY) 
+    <br>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="submit">
+</form>
+</body>
+</html>
